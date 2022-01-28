@@ -2,7 +2,7 @@ import React from "react";
 import { useFormik } from "formik";
 import { TextField } from "@material-ui/core";
 
-import Autocomplete, { usePlacesWidget } from "react-google-autocomplete";
+import Autocomplete, { usePlacesWidget } from "mac-react-google-autocomplete";
 
 export default function Formik() {
   const formik = useFormik({

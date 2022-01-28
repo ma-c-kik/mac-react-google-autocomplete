@@ -5,7 +5,7 @@ import { Input as AntInput } from "antd";
 import "antd/dist/antd.css";
 import { Input, TextField } from "@material-ui/core";
 import Form from "react-bootstrap/Form";
-import Autocomplete, { usePlacesWidget } from "react-google-autocomplete";
+import Autocomplete, { usePlacesWidget } from "mac-react-google-autocomplete";
 
 function App() {
   const inputRef = useRef(null);
