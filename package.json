@@ -1,6 +1,6 @@
 {
   "name": "mac-react-google-autocomplete",
-  "version": "2.6.1",
+  "version": "2.6.2",
   "description": "React component for google autocomplete.",
   "main": "index.js",
   "types": "index.d.ts",
