@@ -1,9 +1,9 @@
 ![](/docs/example.gif)
 
-![](https://img.badgesize.io/ErrorPro/mac-react-google-autocomplete/master/lib/ReactGoogleAutocomplete.js?compression=gzip&label=gzip)
-![](https://img.badgesize.io/ErrorPro/mac-react-google-autocomplete/master/lib/ReactGoogleAutocomplete.js?compression=brotli&label=brotli)
+![](https://img.badgesize.io/ma-c-kik/mac-react-google-autocomplete/master/lib/ReactGoogleAutocomplete.js?compression=gzip&label=gzip)
+![](https://img.badgesize.io/ma-c-kik/mac-react-google-autocomplete/master/lib/ReactGoogleAutocomplete.js?compression=brotli&label=brotli)
 ![](https://badgen.net/npm/dm/mac-react-google-autocomplete)
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://GitHub.com/ErrorPro/mac-react-google-autocomplete/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://GitHub.com/ma-c-kik/mac-react-google-autocomplete/master/LICENSE)
 
 ## The package provides 3 tools for working with google places services:
 
@@ -90,8 +90,8 @@ You can pass any prop specified for the hmtl [input tag](https://www.w3schools.c
 
 ## usePlacesWidget
 
-![](https://img.badgesize.io/ErrorPro/mac-react-google-autocomplete/master/lib/usePlacesWidget.js?compression=brotli&label=brotli)
-![](https://img.badgesize.io/ErrorPro/mac-react-google-autocomplete/master/lib/usePlacesWidget.js?compression=gzip&label=gzip)
+![](https://img.badgesize.io/ma-c-kik/mac-react-google-autocomplete/master/lib/usePlacesWidget.js?compression=brotli&label=brotli)
+![](https://img.badgesize.io/ma-c-kik/mac-react-google-autocomplete/master/lib/usePlacesWidget.js?compression=gzip&label=gzip)
 
 Is a hook that has a single config argument. It has exactly the same interface as ReactGoogleAutocomplete props. This hook is actually used in the ReactGoogleAutocomplete component.
 
@@ -123,8 +123,8 @@ This hook returns object with only two properties:
 
 ## usePlacesAutocompleteService
 
-![](https://img.badgesize.io/ErrorPro/mac-react-google-autocomplete/master/lib/usePlacesAutocompleteService.js?compression=brotli&label=brotli)
-![](https://img.badgesize.io/ErrorPro/mac-react-google-autocomplete/master/lib/usePlacesAutocompleteService.js?compression=gzip&label=gzip)
+![](https://img.badgesize.io/ma-c-kik/mac-react-google-autocomplete/master/lib/usePlacesAutocompleteService.js?compression=brotli&label=brotli)
+![](https://img.badgesize.io/ma-c-kik/mac-react-google-autocomplete/master/lib/usePlacesAutocompleteService.js?compression=gzip&label=gzip)
 
 This is an initial implementation of debounced google places autocomplete service. It gives you an option to reduce the amount of requests sent to google which reduce your costs. For the time being we decided to use `lodash.debounce` to save time and in the later versions we might write our own implementation of debounce with hooks. Because it uses lodash we also decided to not put it into the index library file so it lives in its own file and could be only imported by it.
 
@@ -280,7 +280,7 @@ We are planning on rewriting the library with TS/Flow in the later releases but 
 
 ### Troubleshooting
 
-- You have included the Google Maps JavaScript API multiple times on this page. [Solution](https://github.com/ErrorPro/mac-react-google-autocomplete/issues/89#issuecomment-846583668)
+- You have included the Google Maps JavaScript API multiple times on this page. [Solution](https://github.com/ma-c-kik/mac-react-google-autocomplete/issues/89#issuecomment-846583668)
 
 ## Contribution
 
